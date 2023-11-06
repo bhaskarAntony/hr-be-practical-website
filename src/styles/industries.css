@@ -1,0 +1,29 @@
+.industries{
+
+}
+.industry-card{
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 50px !important;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    background-color: #513a3a51;
+}
+.industry-image{
+    left: -30px;
+    padding: 20px;
+    background-color: #fff;
+    color: var(--red);
+    margin-left: -20px;
+    border-radius: 100px;
+    border: 1px solid var(--red);
+}
+.industry-card:hover .industry-image{
+    transform: rotate(360deg);
+    transition: 1s;
+    
+}

@@ -1,0 +1,10 @@
+.feature-card-header img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.feature-card{
+    border: 2px solid #fff;
+    color: #fff;
+    height: 100%;
+}

@@ -1,0 +1,5 @@
+.quote{
+    min-height: 400px;
+    background: linear-gradient(45deg, #fff,#fff, #ffffffc9,rgba(54, 54, 54, 0.127)), url(https://img.freepik.com/premium-photo/business-partners-shaking-hands-after-successful-transaction_160672-37093.jpg?w=826) no-repeat center;
+    background-size: cover;
+}

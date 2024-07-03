@@ -7,4 +7,25 @@
     border: 2px solid #fff;
     color: #fff;
     height: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.thumb-feature{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffffb6;
+    left: 0;
+    top: 0;
+    transform: translateY(-100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feature-card:hover .thumb-feature{
+    transform: translateY(0%);
+    transition: 1s;
+    cursor: pointer;
 }

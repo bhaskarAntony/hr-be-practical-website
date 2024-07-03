@@ -31,6 +31,10 @@ function Features() {
         featuresData.map((item, index)=>(
             <div className="col-12 col-md-4 col-lg-3">
                 <div className="feature-card p-3">
+                <div className="thumb-feature">
+                       <span className="fs-3 text-black mb-4 text-center">{item.title}</span>
+                    <button className="btn-danger">Read More</button>
+                </div>
                     <div className="feature-card-header">
                         <img src={item.image} alt="" className="" />
                     </div>
@@ -39,6 +43,7 @@ function Features() {
                         <p className="fs-5">{item.desc}</p>
                     </div>
                 </div>
+              
             </div>
         ))
        }

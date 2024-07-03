@@ -11,8 +11,8 @@
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
-    --red: #fc6838;
-    --orange: #fd7e14;
+    --red: #1A5319;
+    --orange: #1A5319;
     --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
@@ -138,7 +138,7 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 23px;
-  background-color: #fc6838;
+  background-color: #1A5319;
   border-style: none;
   border-radius: 5px;
   color: #fff;

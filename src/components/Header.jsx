@@ -86,9 +86,9 @@ function Header() {
              </li>     
           </ul>
         </li>
-        <li class="nav-item">
+        {/* <li class="nav-item">
           <a class="nav-link  elite-link" href='/elite' > <i class="bi bi-stars"></i> Elite</a>
-        </li>
+        </li> */}
         <li class="nav-item dropdown">
           <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About Us <i class="bi bi-chevron-down"></i>
@@ -100,7 +100,7 @@ function Header() {
         </li>
       </ul>
      <a href="/register" className='text-decoration-none'>
-     <button class="btn-danger" type="button">Upload Job Requirement<i class="bi bi-chevron-double-right"></i></button>
+     <button class="btn-danger" type="button">Contact us<i class="bi bi-chevron-double-right"></i></button>
      </a>
       <button variant="primary" onClick={handleShowContact} className='btn bg-gray2 mx-2 p-2 rounded-2'>
       <i class="bi bi-person-lines-fill fs-4 text-white"></i>

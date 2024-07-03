@@ -23,7 +23,7 @@ function HomeHero() {
             </div>
         </div>
       </div>
-      <HeroRegister/>
+      {/* <HeroRegister/> */}
     </section>
   )
 }

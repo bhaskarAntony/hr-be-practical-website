@@ -37,7 +37,7 @@ function Industries() {
   return (
     <div className='industries container-fluid p-lg-5 p-3 bg-blur'>
         <h1 className="text-center fs-1 text-900 mb-3">Industries We Cater for <p className="text-main-danger">Recruitment</p></h1>
-        <div className="row mt-5">
+        <div className="row mt-5 justify-content-center">
             {
                 industriesData.map((item, index)=>(
                     <div className="col-12 col-md-6 col-lg-3">

@@ -35,7 +35,7 @@ function Contact() {
                                     <i className={`bi bi-${data.icon}`}></i>
                                 </div>
                                 <div className="contact-card-body">
-                                    <span className="d-block fs-1">{data.title}</span>
+                                    <span className="d-block fs-3">{data.title}</span>
                                     <p className="fs-5 text-success fw-bold">{data.subtitle}</p>
                                     <p className="fs-5 text-secondary">{data.desc}</p>
                                 </div>

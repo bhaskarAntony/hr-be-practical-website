@@ -1,0 +1,37 @@
+.service-hero{
+    min-height: 80vh;
+    background: linear-gradient(45deg, #009c46, #08ff98ae), url(https://img.freepik.com/free-photo/young-person-intership_23-2149315583.jpg?t=st=1720001058~exp=1720004658~hmac=2a801725ac5ab3966e1dc96e55574fc2a5ad3a00ba9d39e59e7dc86c05c85f35&w=740) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.steps-card{
+    position:relative;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    overflow: hidden;
+    border-left: 5px solid #009c46;
+}
+.step{
+   min-width: 50px;
+   /* background: linear-gradient(45deg, var(--red), #94ffe6); */
+   background-color: #009c46;
+   padding: 10px;
+   color: #fff;
+   position: relative;
+   /* border-radius: 0px 100px 100px 0px; */
+}
+.step::before{
+    content:'';
+    position: absolute;
+    border:28.8px;
+    border-color: transparent transparent transparent #009c46;
+    border-style: solid;
+    top:0px;
+    right:-55.5px;
+}
+.steps-body{
+    margin-left: 20px;
+}

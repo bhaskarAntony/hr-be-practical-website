@@ -11,8 +11,8 @@
     --indigo: #6610f2;
     --purple: #6f42c1;
     --pink: #e83e8c;
-    --red: #1A5319;
-    --orange: #1A5319;
+    --red: #009c46;
+    --orange: #009c46;
     --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
@@ -302,7 +302,7 @@
   color: #fff;
 }
 [class*="btn-main-outline"]:hover{
-  background-color: #058425 !important;
+  background-color: #009c46 !important;
   opacity: 0.8;
 }
 @media (max-width:800px){
@@ -487,5 +487,9 @@ font-size: 1.5rem;
   100% {
     background-position: 200% 0;
   }
+}
+
+.bg-main{
+  background:var(--red)
 }
 

@@ -1,0 +1,24 @@
+.contact-card{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 100%;
+}
+.contact-section{
+    background-color: rgb(174, 255, 232);
+}
+.contact-card p{
+}
+.contact-card .icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background: linear-gradient(var(--red), #94ffe6);
+    margin: auto;
+    transform: translateY(-50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3rem;
+    color: #fff;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/homehero.css'
 import HeroRegister from './HeroRegister'
+import { Link } from 'react-router-dom'
 
 function HomeHero() {
   return (
@@ -13,8 +14,8 @@ function HomeHero() {
             <p className="fs-5 text-secondary">Upskill your existing workforce with the top consultancy in bangalore. Hire the best talents from one of the <span className="text-main">
             Best job consultancy in bangalore.</span></p>
            <div className="d-flex flex-wrap gap-2 mt-3">
-             <button className="btn-danger hero-btn">Best job consultancy in bangalore.</button>
-            <button className="btn-gray w-fit hero-btn">Post A Job Requirement </button></div>
+             <button className="btn-danger hero-btn px-5"><Link className='nav-link' to='/about-us'>About us</Link></button>
+            </div>
            </div>
         </div>
         <div className="col-12 col-md-12 col-lg-6">

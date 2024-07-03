@@ -25,7 +25,7 @@ const stepsdata = [
 function Corporate() {
   return (
     <div>
-        <HeroSection title='Hire, Train, and Deploy Services' subtitle="n today's fast-paced business environment, continuous learning and development are essential for maintaining a competitive edge. Be Practical offers comprehensive Corporate Training Services designed to enhance your team's skills and drive organizational success. Our tailored training programs address the unique needs of your business, ensuring your employees are equipped with the latest knowledge and best practices."/>
+        <HeroSection title='Corporate Training Services' subtitle="In today's fast-paced business environment, continuous learning and development are essential for maintaining a competitive edge. Be Practical offers comprehensive Corporate Training Services designed to enhance your team's skills and drive organizational success. Our tailored training programs address the unique needs of your business, ensuring your employees are equipped with the latest knowledge and best practices."/>
 
         <Community community="For businesses seeking comprehensive HR solutions, Be Practical is your trusted partner. Our Hire, Train, and Deploy services ensure you get the best talent, equipped with the right skills, ready to contribute from day one. From recruitment to training to deployment, we provide end-to-end solutions tailored to your specific needs. Discover how Be Practical can help you build a skilled and dynamic workforce." />
         <Process data={stepsdata}/>

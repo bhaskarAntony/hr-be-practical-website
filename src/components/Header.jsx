@@ -67,25 +67,16 @@ function Header() {
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services<i class="bi bi-chevron-down mx-1"></i>
+            Services <i class="bi bi-chevron-down"></i>
           </a>
-          <ul class="dropdown-menu p-0">
-
+          <ul class="dropdown-menu list-group">
+            <li className='list-group-item'> <Link to='/permanent-Staffing-Services-bangalore' className='nav-link'>Permanent Staffing</Link></li>
+            <li className='list-group-item'> <Link to='/contract-Staffing-Services-bangalore' className='nav-link'>Contract Staffing</Link></li>
+            <li className='list-group-item'> <Link to='/hire-train-deploy-services-bangalore' className='nav-link'>Train & Deploy Program</Link></li>
+            <li className='list-group-item'> <Link to='/corporate-training-services-bangalore' className='nav-link'>Corporate Training Program</Link></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Job Posts<i class="bi bi-chevron-down"></i>
-          </a>
-          <ul class="dropdown-menu">
-            <li className='list-group-item'>
-            <Link to='/gallery' className='nav-link'>About Us</Link>
-             </li>
-            <li className='list-group-item'>
-            <Link to='/blogs' className='nav-link'>Contact Us</Link>
-             </li>     
-          </ul>
-        </li>
+       
         {/* <li class="nav-item">
           <a class="nav-link  elite-link" href='/elite' > <i class="bi bi-stars"></i> Elite</a>
         </li> */}
@@ -94,13 +85,13 @@ function Header() {
             About Us <i class="bi bi-chevron-down"></i>
           </a>
           <ul class="dropdown-menu list-group">
-            <li className='list-group-item'> <Link to='/about' className='nav-link'>About Us</Link></li>
-            <li className='list-group-item'> <Link to='/contacts' className='nav-link'>Contact Us</Link></li>
+            <li className='list-group-item'> <Link to='/about-us' className='nav-link'>About Us</Link></li>
+            <li className='list-group-item'> <Link to='/contact-us' className='nav-link'>Contact Us</Link></li>
           </ul>
         </li>
       </ul>
      <a href="/register" className='text-decoration-none'>
-     <button class="btn-danger" type="button">Contact us<i class="bi bi-chevron-double-right"></i></button>
+     <button class="btn-danger d-flex flex-nowrap" type="button"> <a href="/contact-us" className="nav-link">Contact us</a><i class="bi bi-chevron-double-right"></i></button>
      </a>
       <button variant="primary" onClick={handleShowContact} className='btn bg-gray2 mx-2 p-2 rounded-2'>
       <i class="bi bi-person-lines-fill fs-4 text-white"></i>

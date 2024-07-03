@@ -1,20 +1,16 @@
-.contact-card{
-    position:absolute;
-    left: 50%;
-    top:50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 80%;
-    height: 80%;
+.contact-page .contact-card{
+    
 }
-.middle-bar{
+/* .middle-bar{
     min-height: 200px;
     background: var(--red);
     width: 100%;
-}
+} */
 
 .contact-page{
     position: relative;
     min-height: 80vh;
+    justify-content: center;
 }
 .contact-page ul{
     padding: 0;

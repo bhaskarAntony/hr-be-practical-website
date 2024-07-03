@@ -9,6 +9,7 @@ import Corporate from './pages/services/Corporate'
 import Deploy from './pages/services/Deploy'
 import Permanent from './pages/services/Permanent'
 import Contact from './pages/ContactUs/Contact'
+import AboutUs from './pages/Aboutus/AboutUs'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='/hire-train-deploy-services-bangalore' element={ <Deploy/>}/>
       <Route path='/corporate-training-services-bangalore' element={ <Corporate/>}/>
       <Route path='/contact-us' element={ <Contact/>}/>
+      <Route path='/about-us' element={ <AboutUs/>}/>
      </Routes>
      <Footer/>
      </BrowserRouter>

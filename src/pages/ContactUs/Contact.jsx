@@ -13,7 +13,7 @@ function Contact() {
                     <div className="contact-left mb-3">
                         <h1 className="fs-4 text-success mb-4 fw-bold">Contact Info</h1>
                         <ul>
-                        <li> <i class="bi bi-telephone"></i> 9740201189</li>
+                        <li> <i class="bi bi-telephone"></i> +91-9242079119</li>
                         <li><i class="bi bi-envelope"></i> chowdarykh@be-practical.com</li>
                         <li><i class="bi bi-geo-alt"></i> #737C,1stFloor,1st cross 3rd Stage,4th Block Basaveshwara nagar Bengaluru-560079</li>
                         </ul>

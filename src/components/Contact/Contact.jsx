@@ -18,7 +18,7 @@ const contactdata = [
     {   
         title:'PHONE',
         subtitle:'Mon-Fri from 8am to 5am',
-        desc:'9740201189',
+        desc:'+91-9242079119',
         icon:'telephone'
     }
 ]
